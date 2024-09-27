@@ -15,7 +15,7 @@ A simple web application that allows users to create, edit, and delete sticky no
 - **CSS**: Styling the application, including Bootstrap for responsive layout.
 - **JavaScript**: Functionality for creating and managing sticky notes.
 
-## [Live Demo]()
+## [Live Demo](https://lakshmi-321.github.io/sticky-notes/)
 
 
 
