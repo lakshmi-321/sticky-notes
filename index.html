@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container text-center my-5">
+        <div class="sticky-notes d-flex justify-content-center flex-wrap">
+            <div class="note-container">
+                <div class="note-content" contenteditable="">
+                     Create a Sticky note of your choice
+                </div>
+                <div class="note-actions">
+                    <button class="btn btn-danger delete-note" onclick="deleteNote(this)">Delete</button>
+                </div>
+            </div>
+            <div class="create-notes btn btn-light" title="New Notes" onclick="createNotes()">+</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
